@@ -27,5 +27,5 @@ Start the server
 
 ## Deployment
 
-Deployed Site Link: ab-moment-extension.netlify.app
+Deployed Site Link: https://ab-moment-extension.netlify.app/
 
