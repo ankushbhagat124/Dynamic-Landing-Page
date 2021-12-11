@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    color: black;
+}
+#time{
+    font-family: 'Arimo', sans-serif;
+    font-size: 8rem;
+}
+h1{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+h2{
+    margin-bottom: 0.5rem;
+}
+.qt{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.container{
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: space-evenly;
+    letter-spacing: 4px;
+    margin-top: 2rem;
+}
+.btn1{
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: rgb(255, 0, 68);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #08d877;
+    transition: ease-out 0.3s;
+    font-size: 0.7rem;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+}
+.btn1:hover{
+    box-shadow: inset 100px 0 0 0  #08d877;
+
+}
+
+.btn2{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    color: white;
+    background-color: rgb(255, 0, 68);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0  #08d877;
+    transition: ease-out 0.3s;
+    font-size: 0.7rem;
+    outline: none;
+    cursor: pointer;
+}
+.btn2:hover{
+    box-shadow: inset 100px 0 0 0  #08d877;
+
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+@media(max-width: 700px){
+    #time{
+        font-size: 6rem;
+    }
+}

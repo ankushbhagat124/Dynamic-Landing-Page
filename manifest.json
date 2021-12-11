@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Moments",
+    "description": "Dynamic Landing Page",
+    "version": "1.0.0",
+    "icons": {"128":"Moments_Logo.png"},
+    "browser_action":{
+        "default_icon" : "Moments_Logo.png",
+        "default_popup": "index.html"
+    },
+    "permissions": ["activeTab"]
+}
