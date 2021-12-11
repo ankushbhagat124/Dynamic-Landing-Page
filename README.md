@@ -9,7 +9,7 @@ Learned a lot from this project!
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/ankushbhagat124/Dynamic-Landing-Page.git
 ```
 
 Go to the project directory
@@ -27,5 +27,5 @@ Start the server
 
 ## Deployment
 
-Deployed Site Link: 
+Deployed Site Link: ab-moment-extension.netlify.app
 
